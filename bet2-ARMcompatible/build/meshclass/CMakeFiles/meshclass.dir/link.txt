@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libmeshclass.a CMakeFiles/meshclass.dir/drawmesh.cpp.o CMakeFiles/meshclass.dir/mesh.cpp.o CMakeFiles/meshclass.dir/mpoint.cpp.o CMakeFiles/meshclass.dir/point.cpp.o CMakeFiles/meshclass.dir/profile.cpp.o CMakeFiles/meshclass.dir/pt_special.cpp.o CMakeFiles/meshclass.dir/selfintersection.cpp.o CMakeFiles/meshclass.dir/triangle.cpp.o
+/usr/bin/ranlib ../../lib/libmeshclass.a

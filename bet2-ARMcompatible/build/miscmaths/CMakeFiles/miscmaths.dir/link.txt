@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libmiscmaths.a CMakeFiles/miscmaths.dir/miscmaths.cc.o CMakeFiles/miscmaths.dir/optimise.cc.o CMakeFiles/miscmaths.dir/miscprob.cc.o CMakeFiles/miscmaths.dir/kernel.cc.o CMakeFiles/miscmaths.dir/histogram.cc.o CMakeFiles/miscmaths.dir/base2z.cc.o CMakeFiles/miscmaths.dir/t2z.cc.o CMakeFiles/miscmaths.dir/f2z.cc.o CMakeFiles/miscmaths.dir/minimize.cc.o CMakeFiles/miscmaths.dir/cspline.cc.o CMakeFiles/miscmaths.dir/sparse_matrix.cc.o CMakeFiles/miscmaths.dir/sparsefn.cc.o CMakeFiles/miscmaths.dir/rungekutta.cc.o
+/usr/bin/ranlib ../../lib/libmiscmaths.a

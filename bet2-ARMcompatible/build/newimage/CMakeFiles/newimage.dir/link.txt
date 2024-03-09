@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libnewimage.a CMakeFiles/newimage.dir/complexvolume.cc.o CMakeFiles/newimage.dir/costfns.cc.o CMakeFiles/newimage.dir/generalio.cc.o CMakeFiles/newimage.dir/imfft.cc.o CMakeFiles/newimage.dir/lazy.cc.o CMakeFiles/newimage.dir/newimage.cc.o CMakeFiles/newimage.dir/newimagefns.cc.o CMakeFiles/newimage.dir/skeletonapp.cc.o
+/usr/bin/ranlib ../../lib/libnewimage.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libznzlib.a CMakeFiles/znzlib.dir/znzlib.c.o
+/usr/bin/ranlib ../../lib/libznzlib.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libutils.a CMakeFiles/utils.dir/matches.cc.o CMakeFiles/utils.dir/functions.cc.o CMakeFiles/utils.dir/usage.cc.o CMakeFiles/utils.dir/check.cc.o CMakeFiles/utils.dir/parse.cc.o
+/usr/bin/ranlib ../../lib/libutils.a

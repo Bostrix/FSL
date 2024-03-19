@@ -23,8 +23,9 @@ After installing the necessary tools, modify the makefile by adding variables an
 
 Create a build directory and generate the necessary Makefiles using CMake. Use the following command:
 ```bash
-mkdir build && cd build
+cd build
 cmake ..
+make clean
 make
 ```
 ## Handling Compilation Error
@@ -38,6 +39,8 @@ If you encounter compilation errors related to dynamic exception specifications 
 After making necessary changes, recompile the project to ensure that the modifications were applied correctly. The executable file, in this case "bet2", will be created in the "bin" directory specified in the CMakeLists.txt file.
 To test the functionality of the program, execute the "bet2" executable by providing input and output files. For example:
  ```bash
+cd ../bin
+./bet2
 ./bet2 T1.nii.gz Output_T1
 ```
 This command initiates the execution of the "bet2" program with "T1.nii.gz" as the input file. During execution, the program performs 1000 iterations as part of its processing. Upon completion, it generates the specified output file.

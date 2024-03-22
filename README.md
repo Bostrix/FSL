@@ -1,4 +1,6 @@
-# Project Installation and Execution Guide
+# BET2 - Brain Extraction Tool 
+
+BET2 is a brain extraction tool designed to remove non-brain tissue from images of the whole head. It can also estimate inner and outer skull surfaces as well as the outer scalp surface if high-quality T1 and T2 input images are available. This guide will walk you through the process of compiling and executing the BET2 project on an ARM-compatible device.
 
 ## Installation of Development Tools and Libraries
 
@@ -12,16 +14,9 @@ sudo apt install gcc-aarch64-linux-gnu
 ```
 These commands will install the required packages for building and compiling code on the ARM architecture.
 
-## Modification of Makefile
-
-After installing the necessary tools, modify the makefile by adding variables and compiler flags. Here are the modifications:
-
-- Set the "CXX" variable to specify the C++ compiler. For example, set it to "g++-8" for GNU C++ compiler version 8.
-- Define the "CXXFLAGS" variable to specify compiler flags used during compilation. Include flags such as "-O3" for optimization level 3, "-Wall" for enabling compiler warnings, and "-march=armv8-a" to specify the target ARM architecture as ARMv8-A.
-
 ## Compilation with CMake
 
-Create a build directory and generate the necessary Makefiles using CMake. Use the following command:
+Navigate to build directory and generate the necessary Makefiles using CMake. Use the following command:
 ```bash
 cd build
 cmake ..
@@ -41,6 +36,13 @@ To test the functionality of the program, execute the "bet2" executable by provi
  ```bash
 cd ../bin
 ./bet2
-./bet2 T1.nii.gz Output_T1
 ```
-This command initiates the execution of the "bet2" program with "T1.nii.gz" as the input file. During execution, the program performs 1000 iterations as part of its processing. Upon completion, it generates the specified output file.
+Execute the `./bet2` command with the required input file and output file options. Here is the basic syntax:
+ ```bash
+./bet2 <input_fileroot> <output_fileroot> [options]
+```
+Replace `<input_fileroot>` with the path to your input file and `<output_fileroot>` with the desired output file name.You may optionally specify one or more of the following arguments to customize the behavior of BET2. During execution, the program performs 1000 iterations as part of its processing. Upon completion, it generates the specified output file.
+
+## Conclusion
+
+You have now successfully compiled and executed the BET2 project on your ARM-compatible device. Follow the provided instructions to compile the project with CMake and run the executable with the desired input and output files. If you encounter any issues or have further questions, refer to the project documentation or seek assistance from the project maintainers. Happy brain extraction!

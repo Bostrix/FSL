@@ -2,6 +2,21 @@
 
 BET2 is a brain extraction tool designed to remove non-brain tissue from images of the whole head. It can also estimate inner and outer skull surfaces as well as the outer scalp surface if high-quality T1 and T2 input images are available. This guide will walk you through the process of compiling and executing the BET2 project on an ARM-compatible device.
 
+## Clone the Repository
+Begin by cloning the project repository from GitHub onto your local machine. You can do this by running the following command in your terminal or command prompt:
+```bash
+https://github.com/Bostrix/BET2-ARMspecific.git
+```
+This command will create a local copy of the project in a directory named "bet2".
+
+## Navigate to Project Directory
+
+Change your current directory to the newly cloned project directory using the following command:
+```bash
+cd bet2
+```
+This command ensures that you are working within the project directory for any subsequent actions.
+
 ## Installation of Development Tools and Libraries
 
 To set up the necessary development environment on your ARM device, follow these steps:

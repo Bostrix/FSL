@@ -7,13 +7,13 @@ Begin by cloning the project repository from GitHub onto your local machine. You
 ```bash
 https://github.com/Bostrix/BET2-ARMspecific.git
 ```
-This command will create a local copy of the project in a directory named "bet2".
+This command will create a local copy of the project in a directory named "BET2-ARMspecific".
 
 ## Navigate to Project Directory
 
 Change your current directory to the newly cloned project directory using the following command:
 ```bash
-cd bet2
+cd BET2-ARMspecific
 ```
 This command ensures that you are working within the project directory for any subsequent actions.
 

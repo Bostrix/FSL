@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../lib/libfslio.a CMakeFiles/fslio.dir/fslio.c.o
-/usr/bin/ranlib ../../lib/libfslio.a

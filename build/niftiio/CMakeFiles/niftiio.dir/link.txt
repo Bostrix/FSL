@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../lib/libniftiio.a CMakeFiles/niftiio.dir/nifti1_io.c.o
-/usr/bin/ranlib ../../lib/libniftiio.a
